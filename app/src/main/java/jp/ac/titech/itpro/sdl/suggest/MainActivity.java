@@ -24,6 +24,9 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
+    private final static String KEY_NAME = "MainActivity.name";
+    private String name = null;
+
     private EditText inputText;
     private ArrayAdapter<String> resultAdapter;
 
